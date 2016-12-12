@@ -149,7 +149,7 @@ public class MyJob {
 						if (!classIds.isEmpty()) {
 							Set<Object> set = classIds.keySet();
 
-							ArrayList<Object> arrayList = new ArrayList<>(set);
+							ArrayList<Object> arrayList = new ArrayList<Object>(set);
 							logger.info(arrayList.toString());
 							for (Object object : arrayList) {
 								classOrder = new ClassOrder();
