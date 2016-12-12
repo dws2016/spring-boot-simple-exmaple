@@ -22,6 +22,9 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public String hello(){
+
+
+
 		return "hello";
 	}
 	
@@ -30,9 +33,6 @@ public class HelloController {
 		return "login";
 	}
 	
-//	@Override
-//	public void addViewControllers(ViewControllerRegistry registry) {
-//		super.addViewControllers(registry);
-//	}
+
 	
 }
